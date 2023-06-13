@@ -5,27 +5,18 @@ import { SiLinkedin } from "react-icons/si";
 import { BsYoutube } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
+// import { red } from "@mui/material/colors";
 
 const Footer = () => {
   return (
     <div>
-    <div className="footer-wrapper">
-      <div className="footer-section-one">
-        <div className="footer-logo-container flex">
-            <h1>Panama Blog</h1>
-            <h1>Powered by Holberton .TECH Domain Railways</h1>
-          </div>
+      <div id="footer" className="footer-wrapper">
 
+      <div className="footer-logo-container flex">
+          <p className="primary-heading">Panama Blog</p>
+      <div className="footer-section-one">
         <div className="footer-icons">
-          {/* <BsTwitter /> */}
-          {/* <SiLinkedin /> */}
           <a href="https://www.linkedin.com/in/oluwaseun-ayela"> <SiLinkedin /></a>
-          {/* <BsYoutube />
-          <FaFacebookF /> */}
-    
-        </div>
-        <div className="footer-icons">
-          {/* <a href="https://github.com/Seun-Ayela"><BsGithub /> Github Repository</a> */}
           <a href="https://github.com/Seun-Ayela/panama_blog.git"><BsGithub /> Github Repository</a>
         </div>
         <div className="footer-icons">
@@ -33,8 +24,10 @@ const Footer = () => {
           <BsYoutube />
           <FaFacebookF />
         </div>
-        
       </div>
+       </div>
+       
+
       <div className="footer-section-two">
         <div className="footer-section-columns">
           <span>Qualtiy</span>
@@ -57,6 +50,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
+     <h2 className="reserved primary-heading1">Powered by Holberton .TECH Domain </h2>
       <h3 className="reserved">All rights reserved &copy; June 2023</h3>
     </div>
   );

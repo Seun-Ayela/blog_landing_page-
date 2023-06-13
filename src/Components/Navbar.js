@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
-import Logo from "../Assets/Logo.svg";
+// import Logo from "../Assets/Logo.svg";
 import { BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
@@ -15,7 +15,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
-import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
+// import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -29,17 +29,17 @@ const Navbar = () => {
       icon: <InfoIcon />,
     },
     {
-      text: "Testimonials",
+      text: "Products/Services",
       icon: <CommentRoundedIcon />,
     },
     {
       text: "Contact",
       icon: <PhoneRoundedIcon />,
     },
-    {
-      text: "Cart",
-      icon: <ShoppingCartRoundedIcon />,
-    },
+    // {
+    //   text: "Cart",
+    //   icon: <ShoppingCartRoundedIcon />,
+    // },
   ];
   return (
     <nav>
@@ -48,13 +48,13 @@ const Navbar = () => {
         <h1>Panama Blog</h1>
       </div>
       <div className="navbar-links-container">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Products/Services</a>
-        <a href="">Contact</a>
-        <a href="">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#product">Products/Services</a>
+        <a href="#contact">Contact</a>
+        {/* <a href="">
           <BsCart2 className="navbar-cart-icon" />
-        </a>
+        </a> */}
         <button className="primary-button">Sign Up</button>
       </div>
       <div className="navbar-menu-container">

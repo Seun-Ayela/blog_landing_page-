@@ -203,8 +203,11 @@ nav {
 .footer-logo-container {
   /* max-width: 110px; */
   display: flex;
-  gap: 4rem;
+  /* gap: 4rem; */
+  flex-direction: column;
 }
+/* .footer-logo-container */
+/* footer-section-two */
 .reserved {
   text-align: center;
 }
@@ -224,11 +227,14 @@ nav {
   flex: 1;
   display: flex;
   justify-content: flex-end;
+  /* justify-content: space-around; */
 }
 .footer-section-columns {
   display: flex;
   flex-direction: column;
   min-width: 190px;
+  min-width: 300px;
+  gap: 1rem;
 }
 .footer-section-columns span {
   margin: 0.25rem 0rem;
