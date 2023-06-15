@@ -69,3 +69,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # blog_landing_page-
+
+License
+This project is licensed under the MIT License. Public domain.
+
+Credits
+The Blog landing page utilizes the following technologies:
+HMTL5
+CSS3
+Javascript
+React.js
+Postgresql
+
+Support and Contact
+For any questions, issues, or support related to the Django blog application, please contact the project maintainer at seunayela@gmail.com. You can also open an issue on the project's GitHub repository for bug reports or feature requests.
+
+Authors
+Ayela Oluwaseun seunayela@gmail.com
+https://blog-landing-page-gamma.vercel.app/ 
